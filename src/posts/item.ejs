@@ -1,0 +1,9 @@
+<%- include('../_header.ejs') -%>
+
+<p><a href="../index.html">&larr; <%= root.data.title %></a></p>
+
+<h1><%= title %></h1>
+<%- body %>
+<p><em>Posted on <%= date.toDateString() %>.</em></p>
+
+<%- include('../_footer.ejs') -%>
