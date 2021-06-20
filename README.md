@@ -1,4 +1,4 @@
-# [Tinyjam](https://github.com/mourner/tinyjam) starter
+# [Tinyjam](https://github.com/mourner/tinyjam) Starter
 
 ## 🚀 Quick start:
 
@@ -14,8 +14,7 @@ npm i               # Install dependencies
 npm run dev         # Watch for file changes and build
 ```
 
-You can then drag and drop `dist/index.html` in your browser. <br>
-Or serve `dist` with a tool like [serve](https://github.com/vercel/serve): `npx serve dist`.
+You can then drag and drop `dist/index.html` in your browser. <br> Or serve `dist` with a tool like [serve](https://github.com/vercel/serve): `npx serve dist`.
 
 ### Generate your site :
 
