@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "watch 'npm run build' src",
     "prebuild": "mkdir -p dist && rm -r dist",
-    "build": "tinyjam src dist --breaks --smartypants"
+    "build": "tinyjam src dist --breaks --smartypants",
+    "postbuild": "find dist -empty -type d -delete"
   },
   "devDependencies": {
     "tinyjam": "^0.2.0",
