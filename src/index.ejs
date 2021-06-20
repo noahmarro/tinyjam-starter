@@ -1,11 +1,11 @@
 <%- include('includes/_header.ejs', {pageTitle: data.title}) -%>
 
-<img class="logo" src="https://raw.githubusercontent.com/mourner/tinyjam/master/tinyjam.png" width="131">
+<img class="logo" alt="Tinyjam logo" src="/assets/img/logo.png" width="131" height="150">
 
 <h1><%= data.title %></h1>
 
 <% for (const name of Object.keys(posts).reverse()) { const {date, title, body} = posts[name]; -%>
-  <h3><a href="posts/<%= name %>.html"><%= title %></a> — <%= date.toDateString() %></h3>
+  <h2><a href="posts/<%= name %>.html"><%= title %></a> — <%= date.toDateString() %></h2>
   <p><%- body.trim().match(/\<p>(.+)<\/p>/)[1] %> [&hellip;]</p>
 <% } -%>
 
