@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "dev": "watch 'npm run build' src/",
-    "prebuild": "rm -r dist/",
-    "build": "tinyjam src/ dist/ --breaks --smartypants"
+    "dev": "watch 'npm run build' src",
+    "prebuild": "mkdir -p dist && rm -r dist",
+    "build": "tinyjam src dist --breaks --smartypants"
   },
   "devDependencies": {
     "tinyjam": "^0.2.0",
