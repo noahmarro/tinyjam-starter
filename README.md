@@ -22,4 +22,4 @@ You can then serve `dist` with a tool like [serve](https://github.com/vercel/ser
 npm run build
 ```
 
-Your static site waits patiently in the `dist` folder to be hosted
+Your static site waits patiently in the `dist` folder to be hosted!
