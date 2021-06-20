@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title><%= root.data.title %></title>
     <meta charset="utf-8">
-    <link rel="alternate" type="application/rss+xml" href="rss.xml" title="<%= rootPath %>/<%= root.data.title %> RSS">
+    <link rel="alternate" type="application/rss+xml" href="/rss.xml" title="<%= root.data.title %> RSS feed">
+
+    <title><%= locals.pageTitle %></title>
+    <meta name="description" content="<%= root.data.description %>" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+    <!-- icons -->
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/icon.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+
     <style>
       body {
         background: hsl(0 0% 10%);

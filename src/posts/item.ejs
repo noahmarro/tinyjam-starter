@@ -1,9 +1,11 @@
-<%- include('../includes/_header.ejs') -%>
+<%- include('../includes/_header.ejs', {pageTitle: `${title} — ${root.data.title}`}) -%>
 
-<p><a href="../index.html">&larr; <%= root.data.title %></a></p>
+<nav><a href="../index.html">&larr; <%= root.data.title %></a></nav>
 
-<h1><%= title %></h1>
-<%- body %>
-<p><em>Posted on <%= date.toDateString() %>.</em></p>
+<article>
+  <h1><%= title %></h1>
+  <%- body %>
+  <p><em>Posted on <%= date.toDateString() %>.</em></p>
+</article>
 
 <%- include('../includes/_footer.ejs') -%>
