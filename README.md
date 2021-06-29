@@ -10,7 +10,7 @@ See the [demo site](https://tinyjam-starter.netlify.app/)!
 
 ```
 # Clone project
-git clone https://github.com/noahmarro/tinyjam-starter.git
+git clone https://github.com/ahnoio/tinyjam-starter.git
 
 cd tinyjam-starter
 
