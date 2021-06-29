@@ -1,4 +1,8 @@
-# [Tinyjam](https://github.com/mourner/tinyjam) Starter
+# Tinyjam Starter
+
+A barebones starter template using [Tinyjam](https://github.com/mourner/tinyjam), a radically simple, zero-configuration static site generator in JavaScript.
+
+See the [demo site](https://tinyjam-starter.netlify.app/)!
 
 ## 🚀 Quick start:
 
