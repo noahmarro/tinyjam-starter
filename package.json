@@ -1,11 +1,14 @@
 {
   "scripts": {
     "dev": "watch 'npm run build' src",
+    "serve": "serve dist",
+    "start": "concurrently 'npm run dev' 'npm run serve'",
     "prebuild": "mkdir -p dist && rm -r dist",
     "build": "tinyjam src dist --breaks --smartypants",
     "postbuild": "find dist -empty -type d -delete"
   },
   "devDependencies": {
+    "concurrently": "^6.2.0",
     "tinyjam": "^0.2.0",
     "watch": "^0.13.0"
   }

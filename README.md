@@ -10,11 +10,9 @@ git clone https://github.com/noahmarro/tinyjam-starter.git
 
 cd tinyjam-starter
 
-npm i               # Install dependencies
-npm run dev         # Watch for file changes and build
+npm i              # Install dependencies
+npm run start      # Start a dev server
 ```
-
-You can then serve `dist` with a tool like [serve](https://github.com/vercel/serve): `npx serve dist`.
 
 ### Generate your site :
 
@@ -22,4 +20,4 @@ You can then serve `dist` with a tool like [serve](https://github.com/vercel/ser
 npm run build
 ```
 
-Your static site waits patiently in the `dist` folder to be hosted!
+Your generated static site waits patiently for you in the `dist` folder :)
