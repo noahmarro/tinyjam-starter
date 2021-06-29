@@ -6,7 +6,7 @@ See the [demo site](https://tinyjam-starter.netlify.app/)!
 
 ## 🚀 Quick start:
 
-[Click here to use this template](https://github.com/noahmarro/tinyjam-starter/generate), use a [.zip download](https://github.com/noahmarro/tinyjam-starter/archive/main.zip), or run these commands:
+[Click here to use this template](https://github.com/ahnoio/tinyjam-starter/generate), use a [.zip download](https://github.com/ahnoio/tinyjam-starter/archive/main.zip), or run these commands:
 
 ```
 # Clone project
