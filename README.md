@@ -14,10 +14,10 @@ npm i              # Install dependencies
 npm run start      # Start a dev server
 ```
 
-### Generate your site :
+## 👨‍🔧 Generate your site:
 
 ```
 npm run build
 ```
 
-Your generated static site waits patiently for you in the `dist` folder :)
+Your generated static site waits patiently for you in the `dist` folder, enjoy!
