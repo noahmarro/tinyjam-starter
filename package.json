@@ -1,16 +1,15 @@
 {
   "scripts": {
-    "dev": "watch 'npm run build' src",
-    "serve": "serve dist",
-    "start": "concurrently 'npm run dev' 'npm run serve'",
+    "watch": "pnpm chokidar 'src' -c 'pnpm run build' --initial",
+    "start": "pnpm concurrently 'pnpm watch' 'pnpm serve dist'",
     "prebuild": "mkdir -p dist && rm -r dist",
     "build": "tinyjam src dist --breaks --smartypants",
     "postbuild": "find dist -empty -type d -delete"
   },
   "devDependencies": {
-    "concurrently": "^6.2.0",
+    "chokidar-cli": "^3.0.0",
+    "concurrently": "^7.6.0",
     "serve": "^14.2.0",
-    "tinyjam": "^0.4.0",
-    "watch": "^0.13.0"
+    "tinyjam": "^0.4.0"
   }
 }

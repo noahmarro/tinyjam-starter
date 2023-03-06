@@ -14,14 +14,14 @@ git clone https://github.com/ahnoio/tinyjam-starter.git
 
 cd tinyjam-starter
 
-npm i              # Install dependencies
-npm run start      # Start a dev server
+pnpm i             # Install dependencies
+pnpm start         # Start a dev server
 ```
 
 ## 👨‍🔧 Generate your site:
 
 ```
-npm run build
+pnpm build
 ```
 
-Your generated static site waits patiently for you in the `dist` folder, enjoy!
+Your generated static site waits patiently for you in the `dist/` folder, enjoy!
